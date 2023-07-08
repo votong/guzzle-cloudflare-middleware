@@ -1,5 +1,5 @@
 {
-  "name":"cornford/guzzle-cloudflare-middleware",
+  "name":"votong/guzzle-cloudflare-middleware",
   "description":"Cloudflare Middleware For Guzzle",
   "keywords":["Cloudflare", "Middleware", "Guzzle"],
   "license": "MIT",
@@ -10,12 +10,12 @@
     }
   ],
   "require": {
-    "php": "^7.1",
-    "guzzlehttp/guzzle": "^6.3"
+    "php": "^7.4",
+    "guzzlehttp/guzzle": "^7.3"
   },
   "autoload":{
     "psr-4":{
-      "Cornford\\GuzzleCloudflareMiddleware\\": "src/"
+      "VoTong\\GuzzleCloudflareMiddleware\\": "src/"
     }
   },
   "minimum-stability": "stable"
