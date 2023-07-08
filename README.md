@@ -7,10 +7,10 @@
 
 ## Installation
 
-Begin by installing this package through Composer. Edit your project's `composer.json` file to require `cornford/guzzle-cloudflare-middleware`.
+Begin by installing this package through Composer. Edit your project's `composer.json` file to require `votong/guzzle-cloudflare-middleware`.
 
     "require": {
-        "cornford/guzzle-cloudflare-middleware": "1.*"
+        "votong/guzzle-cloudflare-middleware": "1.*"
     }
 
 Finally, update Composer from the Terminal:
@@ -23,7 +23,7 @@ It's really as simple as using the middleware class with Guzzle:
 
 ``` php
 use GuzzleHttp\Client;
-use Cornford\GuzzleCloudflareMiddleware\CloudflareMiddleware;
+use VoTong\GuzzleCloudflareMiddleware\CloudflareMiddleware;
 use GuzzleHttp\Cookie\FileCookieJar;
 
 $client = new Client(['cookies' => new FileCookieJar('cookies.txt')]);
