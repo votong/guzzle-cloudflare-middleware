@@ -1,6 +1,6 @@
 <?php
 
-namespace Cornford\GuzzleCloudflareMiddleware;
+namespace VoTong\GuzzleCloudflareMiddleware;
 
 use ErrorException;
 use Exception;
